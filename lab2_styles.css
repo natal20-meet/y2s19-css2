@@ -1,5 +1,6 @@
-body {
+body{
     margin: 0;
+
 }
 
 h1 {
@@ -7,7 +8,7 @@ h1 {
     font-family: sans-serif;
     text-align: center;
     background-color: blue;
-    opacity: .5;
+    opacity: .5;	
 }
 
 p {
@@ -23,6 +24,11 @@ a {
     background-color: pink;
     opacity: .5;
 }
+
+ a:hover {
+ 	color:blue;
+ }
+
 
 span {
 	background-color: yellow;
@@ -48,3 +54,12 @@ div {
     opacity: .7;
     	
 }
+
+#important_para:hover {
+	background-color: yellow;
+	font-size:40px;
+}
+.less_imp_para{
+	color: blue;
+}
+
